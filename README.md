@@ -14,6 +14,7 @@ Print "Vaccine Eligibility: Yes"
 Print details (e.age, e.n)
 Return 0
 ## Program:
+```
 #include<stdio.h>
 struct eligib
 {
@@ -33,6 +34,7 @@ int main()
      printf("Age:%d\nName:%svaccine:%d\neligibility:yes",e.age,e.n,e.age);
   }
 }
+```
 ## Output:
 ![image](https://github.com/user-attachments/assets/aa798ec2-0270-4c73-93bd-3d41f098f914)
 
@@ -53,6 +55,7 @@ Call the add function with n as an argument.
 Print the result returned by the add function.
 Return 0
 ## Program:
+```
 #include<stdio.h>
 struct numbers
 {
@@ -69,7 +72,7 @@ int add(struct numbers n)
 {
     return n.a+n.b;
 }
-
+```
 ## Output:
 ![image](https://github.com/user-attachments/assets/3a1cbc25-eccb-45ca-9bde-5fff5c297e12)
 
@@ -96,6 +99,7 @@ Print a message indicating that the file has been closed.
 End the main function.
 Return 0 to indicate successful program execution.
 ## Program:
+```
 #include <stdio.h>
 int main()
 {
@@ -108,6 +112,7 @@ int main()
    fclose(p);
    printf("\n%s File Closed",name);
 }
+```
 ## Output:
 ![image](https://github.com/user-attachments/assets/d3ff4a28-8eab-4df7-9fe3-4bc57ddad6c4)
 
@@ -134,6 +139,7 @@ Print a message indicating that data has been added successfully.
 End the main function.
 Return 0 to indicate successful program execution.
 ## Program:
+```
 #include <stdio.h>
 int main()
 {
@@ -152,6 +158,7 @@ int main()
    printf("\nData added Successfully");
 
 }
+```
 ## Output:
 ![image](https://github.com/user-attachments/assets/22dff62d-af77-48ec-9443-723631ae30aa)
 
@@ -191,6 +198,7 @@ The aim of this program is to dynamically allocate memory to store information a
 13.End the program by returning 0.
 
 ## Program:
+```
 #include <stdio.h>
 #include <stdlib.h>
 struct Subject
@@ -219,6 +227,7 @@ int main()
     free (s);
     return 0;
 }
+```
 ## Output:
 ![image](https://github.com/user-attachments/assets/cb7d1935-538e-4e13-b2ee-c762c7e9220b)
 
