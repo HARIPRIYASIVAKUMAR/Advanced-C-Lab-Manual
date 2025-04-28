@@ -20,9 +20,9 @@ void display()
       printf("%d\n",stack[i]);
    }
 }
-'''
+```
 ## Output:
-![image](https://github.com/user-attachments/assets/bd2d111a-f568-4345-b076-301c624e0d36)
+![image](https://github.com/user-attachments/assets/ac29c166-e6dd-4ffd-9e52-e806716c98cb)
 
 
 ## Result:
@@ -55,7 +55,8 @@ void push (float data)
 }
 ```
 ## Output:
-![image](https://github.com/user-attachments/assets/0ef32c20-d258-4f4b-a2c6-1a79f27cdf94)
+![image](https://github.com/user-attachments/assets/e30d9c0a-91f0-4987-ad71-8a217762f6c8)
+
 
 ## Result:
 Thus, the program to push the given element in to a stack using array is verified successfully
@@ -88,7 +89,7 @@ void display()
 }
 ```
 ## Output:
-![image](https://github.com/user-attachments/assets/f471b075-84aa-4484-a60a-ff4eae6b7a13)
+![image](https://github.com/user-attachments/assets/9220d7cf-3ccc-4668-838e-4b900248fbb5)
 
 
 ## Result:
@@ -121,7 +122,7 @@ void enqueue(float data)
 }
 ```
 ## Output:
-![image](https://github.com/user-attachments/assets/1e8a2050-56af-4be5-97c4-6afa5e4e48b7)
+![image](https://github.com/user-attachments/assets/d4e26668-fae4-4abf-9be4-7d5eae99a094)
 
 
 ## Result:
@@ -137,7 +138,6 @@ Delete the Front Element o If the queue is not empty, the element at the front i
 Check if the Queue Becomes Empty After Deletion: o After deletion, check if the front pointer has passed the rear pointer (front > rear). If this is true, reset both front and rear to -1, indicating that the queue is now empty.
 End the Function.
 ## Program:
-```
 int front, rear;
 void dequeue()
 {
@@ -152,9 +152,8 @@ void dequeue()
 }
 ```
 ## Output:
-![image](https://github.com/user-attachments/assets/f020fd43-a938-469f-bdeb-f72633453a21)
+![Uploading image.png…]()
 
 
 ## Result:
-Thus, the function that deletes an element from a queue implemented using an array is verified successfully.
 Thus, the function that deletes an element from a queue implemented using an array is verified successfully.
