@@ -138,6 +138,7 @@ Delete the Front Element o If the queue is not empty, the element at the front i
 Check if the Queue Becomes Empty After Deletion: o After deletion, check if the front pointer has passed the rear pointer (front > rear). If this is true, reset both front and rear to -1, indicating that the queue is now empty.
 End the Function.
 ## Program:
+```
 int front, rear;
 void dequeue()
 {
