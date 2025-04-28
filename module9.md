@@ -152,7 +152,7 @@ void dequeue()
 }
 ```
 ## Output:
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/da874c8c-9f4c-4034-9b89-b304240fb48a)
 
 
 ## Result:
